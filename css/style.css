@@ -26,6 +26,10 @@
     background-color: rgb(117, 167, 228);
 }
 
+.header2 {
+    text-align: center;
+}
+
 .pos_fixed {
     top: 0px;
     right: 10px;
@@ -134,6 +138,11 @@
     padding-left: 40px;
 }
 
+.main2 {
+    float: left;
+    width: 100%;
+}
+
 
 /* 主 column */
 
@@ -222,7 +231,6 @@
 /* 文章卡片效果 */
 
 .card {
-    box-shadow: 0 4px 20px 0 rgba(117, 167, 228, 0.89);
     background-color: white;
     padding: 20px;
     margin-top: 60px;
@@ -234,11 +242,23 @@
     border-width: 15px;
 }
 
+.card:hover {
+    box-shadow: 0 10px 20px 0 rgba(16, 115, 236, 0.89);
+}
+
 .WebTitle {
     font-size: 50px;
     color: #fff;
     font-weight: bold;
     letter-spacing: 0em;
+}
+
+.Webcontent {
+    font-size: 250px;
+    color: #fff;
+    font-weight: bold;
+    letter-spacing: 0em;
+    text-align: center;
 }
 
 .WebTitle a {
@@ -625,7 +645,7 @@ input[type=text]:focus {
     position: absolute;
     width: 160px;
     border: 1px solid rgba(220, 220, 220, 0.1);
-    border: 1px solid #fff\9;
+    border: 1px solid #fff;
     -webkit-transition: -webkit-transform .3s ease-in-out 0s, background .3s ease-in-out 0s;
     transition: transform .3s ease-in-out 0s, background .3s ease-in-out 0s;
 }
@@ -902,4 +922,128 @@ input[type=text]:focus {
 
 .button2:hover {
     box-shadow: 0 12px 16px 0 rgba(248, 245, 245, 0.781), 0 17px 50px 0 rgba(236, 235, 235, 0.925);
+}
+
+.sbody {
+    width: 100%;
+    height: 100%;
+    /* background: radial-gradient(#fff, black); */
+}
+
+.container2 {
+    width: 300px;
+    height: 300px;
+    margin: 200px auto;
+    perspective: 20000px;
+}
+
+.box {
+    width: 300px;
+    height: 300px;
+    border: 1px solid transparent;
+    box-sizing: border-box;
+    position: relative;
+    transform-style: preserve-3d;
+    /*transform:rotateX(30deg) rotateY(30deg);*/
+    animation: ro 5s linear infinite;
+}
+
+.box:hover {
+    animation: ro 10s linear infinite;
+}
+
+.box:active {
+    animation: ro 10s linear infinite;
+}
+
+@keyframes ro {
+    0% {
+        transform: rotateX(0deg) rotateY(0deg);
+    }
+    100% {
+        transform: rotateX(360deg) rotateY(360deg);
+    }
+}
+
+.box-page {
+    width: 300px;
+    height: 300px;
+    position: absolute;
+    box-sizing: border-box;
+    transform-style: preserve-3d;
+}
+
+.top {
+    transform: translateZ(150px);
+}
+
+.bottom {
+    transform: translateZ(-150px) rotateX(180deg);
+}
+
+.right {
+    transform: translateX(150px) rotateY(90deg);
+}
+
+.left {
+    transform: translateX(-150px) rotateY(-90deg);
+}
+
+.after {
+    transform: translateY(-150px) rotateX(90deg);
+}
+
+.before {
+    transform: translateY(150px) rotateX(-90deg);
+}
+
+.box-page div:nth-child(1) {
+    animation: a1 4.5s ease-in 0.7s;
+}
+
+.box-page div:nth-child(2) {
+    animation: a1 4.5s ease-in 1.4s;
+}
+
+.box-page div:nth-child(3) {
+    animation: a1 4.5s ease-in 2.1s;
+}
+
+.box-page div:nth-child(4) {
+    animation: a1 4.5s ease-in 2.8s;
+}
+
+.box-page div:nth-child(5) {
+    animation: a1 4.5s ease-in 3.5s;
+}
+
+.box-page div:nth-child(6) {
+    animation: a1 4.5s ease-in 4.2s;
+}
+
+.box-page div:nth-child(7) {
+    animation: a1 4.5s ease-in 4.9s;
+}
+
+.box-page div:nth-child(8) {
+    animation: a1 4.5s ease-in 5.6s;
+}
+
+.box-page div:nth-child(9) {
+    animation: a1 4.5s ease-in 6.3s;
+}
+
+@keyframes a1 {
+    0% {
+        transform: translateZ(0px) scale(1) rotateZ(0deg);
+    }
+    20% {
+        transform: translateZ(300px) scale(0) rotateZ(720deg);
+    }
+    90% {
+        transform: translateZ(300px) scale(0) rotateZ(720deg);
+    }
+    100% {
+        transform: translateZ(0px) scale(1) rotateZ(0deg);
+    }
 }
