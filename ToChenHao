@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="shortcut icon" href="img/icon.png" type="image/x-icon" />
+    <link rel="stylesheet" href="css/style.css">
+    <title>给陈浩的一封信</title>
+
+    <style>
+            p {letter-spacing:2px;}
+            p.big {line-height:200%;}
+           
+            p {text-indent:50px;}
+            h1 {color:#fff;}
+    </style>
+
+</head>
+
+<body>
+
+
+    <div class="topnav">
+       
+
+    </div>
+
+    <div class="row">
+
+        <div class="side">
+            
+        </div>
+
+
+        <div class="main" >
+
+
+                <h2><font color="#fff">这真的很奇怪！你先不要皱眉</font></h2>
+                <h5><font color="#fff">写在考研倒计时33天</font></h5>
+                <p class="big"><font color="#fff" >好吧，那我开始了，其实我也不知道要说什么，<br>
+                    徐教授从三维几何的视角向同学们介绍了该观点在室内机器人相关领域的应用。他首先谈到视觉感知对于人工智能系统的重要性，<br>
+                    特别是对于机器人领域。机器人目前可以获取的较为可靠的数据主要以带深度信息的图像数据以及扫描得到的点云数据为主。鉴于图像数据缺少帧间关系，
+                    点云数据难以维护准确拓扑结构关系的情况，现阶段相关研究主要集中于对两种数据的分析利用上，如基于点云数据的三维分析重建。
+                    随后，徐教授结合自己参与的四个工作对当前该领域的前沿研究动态作了简要概述。
+                    徐教授首先以发表于SIGGRAPH Asia 2017的题为“Autonomous Reconstruction of Unknown Indoor Scenes Guided by Time-varying Tensor Fields”的
+                    工作为背景，指出移动机器人对未知场景的自主重建，核心问题是在场景探索的完整度与场景重建质量之间的取舍。为此，文章突破性的基于时变张量场导引机器人
+                    进行扫描重建，张量场的引入，使得利用场内奇点构建局部光滑的导引路径及基于张量场拓扑结构构建全局高效路径成为可能。然后他又基于最近发表于
+                    SIGGRAPH 2019的题为“Multi-Robot Collaborative Dense Scene Reconstruction”的工作，向同学们阐述了多机器人协同自主扫描未知场景的算法架构。
+                    文章将问题定义为一个动态任务分配问题，通过引入最优质量传输（OMT）理论，将问题转化为近似旅行商问题，求解得到导引路径。
+                    发表于SIGGRAPH Asia 2015的题为“Autoscanning for Coupled Scene Reconstruction and Proactive Object Analysis”的工作从以对象级认识场景的
+                    角度，提出对象级数据保真度与对象级分析协同改善场景认识的假设，基于该假设，文章构建了一个迭代分析和验证的算法框架，利用机器人返回的局部验证信息，
+                    完成对象级场景分割的全局数据更新。最后，他以发表于SIGGRAPH 2018的题为“Object-Aware Guidance for Autonomous Scene Reconstruction”的工作为例，
+                    给出了基于信息增益分析的对象级扫描导引框架，算法通过分析目标感知信息增益，交错确定最佳扫描对象和最佳扫描视图，迭代识别重建场景对象。
+                </font></p>
+
+
+
+        </div>
+
+
+
+    </div>
+
+
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+
+
+
+
+
+    <div class="footer">
+        <a href="https://github.com/jz1998">
+            <h2 class="WebFooter">Powered By JohnsonZhang & GitHub</h2>
+
+        </a>
+        <h2 class="WebFooter">You can Connect me with the Email：zihol@qq.com</h2>
+        <!-- <p>动态搜索框:</p>
+
+        <form>
+            <input type="text" name="search" placeholder="搜索..">
+        </form> -->
+    </div>
+
+
+</body>
+
+</html>
