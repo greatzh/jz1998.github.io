@@ -10,12 +10,45 @@
     <title>给陈浩的一封信</title>
 
     <style>
-            p {letter-spacing:2px;}
-            p.big {line-height:200%;}
-            p {color:#fff;}
-            p {text-indent:35px;}
-            h1 {color:#fff;}
+        p {
+            letter-spacing: 2px;
+        }
+
+        p.big {
+            line-height: 200%;
+        }
+
+        p.date {
+            text-align: right;
+        }
+
+        p.tip {
+            text-align: left;
+        }
+
+        p {
+            color: #fff;
+        }
+
+        p {
+            text-indent: 20px;
+        }
+
+        h1 {
+            color: #fff;
+        }
+
+        h1 {
+            text-align: center;
+        }
     </style>
+
+    <SCRIPT>
+        function isHidden(oDiv) {
+            var vDiv = document.getElementById(oDiv);
+            vDiv.style.display = (vDiv.style.display == 'none') ? 'block' : 'none';
+        }
+    </SCRIPT>
 
 </head>
 
@@ -23,45 +56,99 @@
 
 
     <div class="topnav">
-       
+
 
     </div>
 
     <div class="row">
 
         <div class="side">
-            
+
         </div>
 
 
-        <div class="main" >
+        <div class="main">
 
 
-                <h2><font color="#fff">这真的很奇怪！<br>你先不要皱眉！</font></h2>
-                <h5><font color="#fff">写在考研倒计时33天</font></h5>
-                <p class="big">The World Really Fuck Me Up. <br>
-<br />
-i always don't know how to deal with those things well such as interaction with others.<br>
-<br />
-Also CHENHAO, yeah i wrote your name, it's kind of weird, i am a boy, how can i want to know a male.<br>
-<br />
-So you may also weird how can i know your name, ennnn…… unintentional or purpose? it's all like the coincidence fate. i remember that seems one time i waiting the queue of buying rice in south canteen after you, so i saw your name displayed on the card machine. OK, i haven't refered your id card or books.<br>
-<br />
-Of course, i clearly know it'sn't that love which know as an attraction to a person of the opposite sex. A friend of mine who study psychology in her bachelor period told me that i am lack of such kind of friends in my daily life in fact,  not i really love u, also, there is definitely some attractions in yours can stay at my eyes.  <br>
- <br />             
-Fine, i don't know what special characteristics about u attract me. Wearing style such as the pink T, sunglasses, life attitude like everyday going back to dormitory to take a noon nap…? i really don't know, i can summary it with a thing called magic? <br>
-<br />
-Have to say, there are lots of people in my life like this that i really want to konw and hope that we can acknowledge each other with the word "friends", however boys or girls.<br>
-<br />
-So above the content about my feelings expressing, some words i still wanna to say is that i should apologize to u for that i always watching u sometimes in that summer, which my mom has told me never staring to sb unfamiliar long long ago. So if staring u ever bother u, please accept my apology. i also hope that this uninformed letter wouldn't influence your prepartions. <br>
-<br />
-Forget it.<br>
-   
+            <h2>
+                <font color="#fff">这真的很奇怪！<br>你先不要皱眉！</font>
+            </h2>
+
+            <p class="date">
+
+
+                <font color="#fff" size="2px">写在考研倒计时32天</font>
+
+            </p>
+
+            <br /><br />
+            <p class="tip">
+
+                <font color="#fff" size="4px">不想看英文可以滑到最下面，点那个直接看中文！</font>
+            </p>
+
+
+            <br /><br />
+            <p class="big">
+                <font size="4px">THE WORLD REALLY FUCKED ME UP</font><br>
+                <br />
+                i always don't know how to deal with those things well such as interaction with others.<br>
+                <br />
+                Also CHENHAO, yeah i wrote your name, it's kind of weird, i am a boy, how can i want to know a male.<br>
+                <br />
+                I know u must dislike me, even disgust, anyway, i just felt that from u every time, Aaaaaa…, but i still
+                wrote this to u shamelessly.
+                <br />
+                So you may also weird how can i know your name, ennnn…… unintentional or purpose? it's all like the
+                coincidence fate. i remember that seems one time i waiting the queue of buying rice in south canteen
+                after you, so i saw your name displayed on the card machine. OK, i haven't refered your id card or
+                books.<br>
+                <br />
+                Of course, i clearly know it'sn't that love which know as an attraction to a person of the opposite sex.
+                A friend of mine who study psychology in her bachelor period told me that i am lack of such kind of
+                friends in my daily life in fact, not i really love u, also, there is definitely some attractions in
+                yours can stay at my eyes. <br>
+                <br />
+                Fine, i don't know what special characteristics about u attract me. Wearing style such as the pink T,
+                sunglasses, life attitude like everyday going back to dormitory to take a noon nap…? i really don't
+                know, i can summary it with a thing called magic? <br>
+                <br />
+                Have to say, there are lots of people in my life like this that i really want to konw and hope that we
+                can acknowledge each other with the word "friends", however boys or girls.<br>
+                <br />
+                So above the content about my feelings expressing, some words i still wanna to say is that i should
+                apologize to u for that i always watching u sometimes in that summer, which my mom has told me never
+                staring to sb unfamiliar long long ago. So if staring u ever bother u, please accept my apology. i also
+                hope that this uninformed letter wouldn't influence your prepartions and sincerely wish u can enter your
+                postgraduate university. <br>
+                <br />
+                Forget it.<br>
 
 
 
- </p>
 
+            </p>
+            <br />
+
+
+            <DIV style="cursor:hand" onclick="isHidden('target')" align="right">
+                <font size="5px" color="#D0D0D0"><b>点击这里看中文版本</b></font>
+            </DIV>
+            <br /><br />
+            <div id="target" hidden="true" style="display:none">
+                <p class="big">
+                    <font size="4px">这个世界真的每时每刻都在搞我</font><br /><br />
+                    我其实一直都不知道怎么和别人交流，反正就是很木讷，像听到某个人说在图书馆有人问他是不是也考数一，说他有资料，然后就能说，我是……不会……<br /><br />
+                    就像你也是，嘿嘿，陈浩，我知道你的名字。嗯，反正就是很奇怪很奇怪，明明我一个男的，为什么会总想认识另外一个男的。放心，不会出大问题，哈哈！就是很奇怪……<br /><br />
+                    我总是可以感觉到你很嫌弃我，，甚至可能还很恶心我，别问我怎么知道的，反正就是看你的表情，都是皱着眉头在那里嫌弃，真的是，嫌什么嫌哟，了不起，我更了不起，明明知道你这么嫌弃我，还臭不要脸的写下了这个叫做给你的一封信。<br /><br />
+                    我想你也可能很奇怪就我为什么会知道你的名字吧！有意无意，都像是情意，啊哈哈哈哈，开玩笑，有意无意，都像是命中注定的缘分？管他呢，就是有一回，我排在你后面，你肯定不记得或许也不知道啦，反正就是打饭的时候，我站在你后面，然后刷卡，就刚好看到了你的名字，陈浩，我可没去翻你的书找名字，也没看你的一卡通。<br /><br />
+                    就是，我也很清楚这种爱？叫好感吧，不是那种对异性的好感，就是单纯地觉得想要成为你这样的人？这可能是听起来比较正常的一个理由吧！我之前就很讨厌我自己怎么变成这个鬼样子，就去找我本科学心理学的同学聊天，她就说我这不是喜欢，就是我自己的生活中太缺少像你这样的盆友了，我一想，诶，好像真的是这样，话说，我羡慕的是和你经常一块的那些个哥们，某次也有看到你拉着你女朋友的小手，就也不羡慕，羡慕就出大问题了。她还说就是你身上肯定也有什么东西是吸引我的。<br /><br />
+                    然后我就开始想啊，你身上，吸引我的东西，你的穿衣风格，粉书的T恤，黄色的墨镜，还有洋气的帽子，反正一看就是很有钱的那种，这么一说，好像又是因为你有钱才想认识你，开玩笑嘿;-)，我也不知道，反正就是挺想认识你的，说不上因为什么。<br /><br />
+                    反正很奇怪的就是，在我的生命中就总是有好多像你这样的人，我总是好想去认识，像你这样的，又是怎样的，啊！这真的有够烦人，是长得好看，男生也是，女生也是，都想认识，都想，能够以朋友这个称谓去认可对方。然后刚好，觉得你是有机会去认识的，所以才有了这些吧！<br /><br />
+                    前前后后写了这些，我也不知道我说了什么了，一开始是用英文在写的，这是英文的翻译，反正很神奇，还有一件事情要说就是，暑假那会总是会盯着你看，我得道歉，我不是没有教养，啊啊啊，我妈老早就有告诉不要一直盯着陌生人看，很不礼貌，如果冒犯到你了，真的特别抱歉。我也希望这些不速之字让你不要有不安，如果你感到很恶心，就忘了吧。然后希望你一定要顺利上岸，偶尔看你学习，感觉你是个学霸，所以应该没问题的了，也不知道还有什么好说的，就<br /><br />
+                    <h1>有生之年 欣喜相逢</h1><br />
+                </p>
+            </div>
 
 
         </div>
@@ -95,7 +182,6 @@ Forget it.<br>
         </a>
         <h2 class="WebFooter">You can Connect me with the Email：zihol@qq.com</h2>
         <!-- <p>动态搜索框:</p>
-
         <form>
             <input type="text" name="search" placeholder="搜索..">
         </form> -->
